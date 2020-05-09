@@ -8,24 +8,20 @@
 }
 
 .hover {
-    right: 1rem;
-    width: 1rem;
-    height: 1rem;
+    height: 48px;
 }
 
-.hover:hover #together {
+.hover:hover .content {
     display: block;
     width: 233px;
     opacity: 1;
 }
 
-#together {
+#meet, #together {
     right: 0;
-    width: 24px;
     height: 48px;
     padding: 12px;
     background-color: tan;
-    opacity: 0;
     color: aliceblue;
     box-shadow: 0 2px antiquewhite;
     transition: all .3s;

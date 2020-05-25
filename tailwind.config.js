@@ -6,6 +6,9 @@ const colors = {
 };
 
 module.exports = {
+  purge: [
+    './src/components/*.vue', './public/index.html'
+  ],
   theme: {
     colors: colors,
     backgroundColor: colors,

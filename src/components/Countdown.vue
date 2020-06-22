@@ -19,7 +19,9 @@
 
 <script>
 import { getCountdown } from '../utils';
-const targetDate = new Date('2020-06-20T00:00:00');
+const targetDate = new Date('2020-09-06T00:00:00');
+targetDate.setMonth(8)
+targetDate.setDate(6)
 const startDate = new Date('2019-09-06T00:00:00');
 const meetDate = new Date('2019-05-27T00:00:00');
 

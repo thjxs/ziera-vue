@@ -28,14 +28,9 @@
     overflow: hidden;
 }
 
-@media (min-width: 1900px) {
-    body {
-        padding: 160px;
-    }
-}
-
 body {
-    background-image: url('/ssh.png');
+    padding: 160px;
+    background-image: url('./assets/ssh.png');
 }
 @media (prefers-color-scheme: dark) {
     body {

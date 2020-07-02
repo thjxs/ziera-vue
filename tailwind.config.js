@@ -7,7 +7,8 @@ const colors = {
 
 module.exports = {
   purge: [
-    './src/components/*.vue', './public/index.html'
+    './src/components/*.vue', './public/index.html',
+    './src/*.vue'
   ],
   theme: {
     colors: colors,

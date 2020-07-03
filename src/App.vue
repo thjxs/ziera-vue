@@ -8,6 +8,12 @@
     <div class="absolute">
       <img src="./assets/super_shiro.png" style="width: 145px;" alt="">
     </div>
+    <div class="absolute" style="left: 645px;">
+      <img src="./assets/rc.png" style="width: 600px;" alt="">
+    </div>
+    <div class="absolute" style="left: 1180px;">
+      <img src="./assets/lc.png" style="width: 400px;" alt="">
+    </div>
   </div>
 </template>
 
